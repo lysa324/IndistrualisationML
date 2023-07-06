@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/0c886148e40341449fd62d174c92bfad/artifacts
+end_time: 1688677533389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0c886148e40341449fd62d174c92bfad
+run_name: enchanting-hen-185
+run_uuid: 0c886148e40341449fd62d174c92bfad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688677496524
+status: 3
+tags: []
+user_id: amroun

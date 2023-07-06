@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/5204242381614f569f5ebaee349a1384/artifacts
+end_time: 1688676994069
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5204242381614f569f5ebaee349a1384
+run_name: mercurial-snail-311
+run_uuid: 5204242381614f569f5ebaee349a1384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688676991616
+status: 4
+tags: []
+user_id: amroun

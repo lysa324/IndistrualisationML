@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/a9b650619c3e4babab8487f0d5de4e52/artifacts
+end_time: 1688676774208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9b650619c3e4babab8487f0d5de4e52
+run_name: shivering-mink-289
+run_uuid: a9b650619c3e4babab8487f0d5de4e52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688676764651
+status: 4
+tags: []
+user_id: amroun

@@ -13,6 +13,7 @@ from kedro.extras.datasets.pandas import CSVDataSet
 
 def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-3):
 
+
     shape = input_shape.shape[1:][0]
 
     inputs = tf.keras.Input(shape=shape)
@@ -43,6 +44,7 @@ def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropo
 
 
 def train_model(input_shape, x_train, y_train, x_val, y_val):
+    
     with mlflow.start_run() as run:
         mlflow.autolog()
         model = create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-3)
@@ -65,13 +67,6 @@ def train_model(input_shape, x_train, y_train, x_val, y_val):
         locc = mean_squared_error(y_val, y_val_pred)
         print("locc calculé")
 
-        # Convertir les prédictions en classes prédites
-        #y_val_pred_classes = np.argmax(y_val_pred, axis=1)
-        #y_val_true_classes = np.argmax(y_val, axis=1)
-
-        # Calculer la métrique accuracy
-        #accuracy = accuracy_score(y_val_pred, y_val)
-        #print(accuracy,locc)
         return model
 
 
