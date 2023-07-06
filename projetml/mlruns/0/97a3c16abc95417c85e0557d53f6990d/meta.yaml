@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/97a3c16abc95417c85e0557d53f6990d/artifacts
+end_time: 1688666376037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97a3c16abc95417c85e0557d53f6990d
+run_name: sneaky-squid-601
+run_uuid: 97a3c16abc95417c85e0557d53f6990d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688666356434
+status: 3
+tags: []
+user_id: amroun

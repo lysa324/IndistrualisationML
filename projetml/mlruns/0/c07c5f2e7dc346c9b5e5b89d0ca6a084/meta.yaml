@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/c07c5f2e7dc346c9b5e5b89d0ca6a084/artifacts
+end_time: 1688568590344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c07c5f2e7dc346c9b5e5b89d0ca6a084
+run_name: resilient-shrike-440
+run_uuid: c07c5f2e7dc346c9b5e5b89d0ca6a084
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688568583894
+status: 3
+tags: []
+user_id: amroun

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/4c115fc3bf754ec7b9fc1e7683f7caf5/artifacts
+end_time: 1688562663201
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c115fc3bf754ec7b9fc1e7683f7caf5
+run_name: luxuriant-crow-760
+run_uuid: 4c115fc3bf754ec7b9fc1e7683f7caf5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688562651080
+status: 3
+tags: []
+user_id: amroun

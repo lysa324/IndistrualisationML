@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/9273866cf7fd43098b6b812c05a22a8e/artifacts
+end_time: 1688475566865
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9273866cf7fd43098b6b812c05a22a8e
+run_name: vaunted-trout-542
+run_uuid: 9273866cf7fd43098b6b812c05a22a8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688475556012
+status: 3
+tags: []
+user_id: amroun

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/d2928d32eec6471db8290474a3773023/artifacts
+end_time: 1688561520301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2928d32eec6471db8290474a3773023
+run_name: kindly-steed-654
+run_uuid: d2928d32eec6471db8290474a3773023
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688561508298
+status: 3
+tags: []
+user_id: amroun

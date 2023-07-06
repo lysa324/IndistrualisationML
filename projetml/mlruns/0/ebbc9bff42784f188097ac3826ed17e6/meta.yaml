@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/ebbc9bff42784f188097ac3826ed17e6/artifacts
+end_time: 1688664815386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebbc9bff42784f188097ac3826ed17e6
+run_name: gaudy-elk-789
+run_uuid: ebbc9bff42784f188097ac3826ed17e6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688664718095
+status: 4
+tags: []
+user_id: amroun

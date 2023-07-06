@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/ae16842705ae4edc85d45596e92827c5/artifacts
+end_time: 1688566365054
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae16842705ae4edc85d45596e92827c5
+run_name: thundering-vole-398
+run_uuid: ae16842705ae4edc85d45596e92827c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688566344156
+status: 3
+tags: []
+user_id: amroun

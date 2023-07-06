@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/cf318da2415945a4a875f59d550e75d5/artifacts
+end_time: 1688566219057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf318da2415945a4a875f59d550e75d5
+run_name: spiffy-koi-202
+run_uuid: cf318da2415945a4a875f59d550e75d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688566206945
+status: 3
+tags: []
+user_id: amroun

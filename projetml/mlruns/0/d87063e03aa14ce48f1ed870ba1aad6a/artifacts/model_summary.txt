@@ -1,0 +1,42 @@
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ input_1 (InputLayer)           [(None, 7)]          0           []                               
+                                                                                                  
+ reshape (Reshape)              (None, 7, 1)         0           ['input_1[0][0]']                
+                                                                                                  
+ conv1d (Conv1D)                (None, 5, 32)        128         ['reshape[0][0]']                
+                                                                                                  
+ max_pooling1d (MaxPooling1D)   (None, 2, 32)        0           ['conv1d[0][0]']                 
+                                                                                                  
+ zero_padding1d (ZeroPadding1D)  (None, 4, 32)       0           ['max_pooling1d[0][0]']          
+                                                                                                  
+ conv1d_1 (Conv1D)              (None, 2, 64)        6208        ['zero_padding1d[0][0]']         
+                                                                                                  
+ zero_padding1d_1 (ZeroPadding1  (None, 4, 64)       0           ['conv1d_1[0][0]']               
+ D)                                                                                               
+                                                                                                  
+ max_pooling1d_1 (MaxPooling1D)  (None, 2, 64)       0           ['zero_padding1d_1[0][0]']       
+                                                                                                  
+ flatten (Flatten)              (None, 128)          0           ['max_pooling1d_1[0][0]']        
+                                                                                                  
+ dense (Dense)                  (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_1 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_2 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_3 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_4 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_5 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+ dense_6 (Dense)                (None, 1)            129         ['flatten[0][0]']                
+                                                                                                  
+==================================================================================================
+Total params: 7,239
+Trainable params: 7,239
+Non-trainable params: 0
+__________________________________________________________________________________________________

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/574eaee372ea45c38fb73ba065587465/artifacts
+end_time: 1688485371638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 574eaee372ea45c38fb73ba065587465
+run_name: righteous-donkey-756
+run_uuid: 574eaee372ea45c38fb73ba065587465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485359378
+status: 3
+tags: []
+user_id: amroun

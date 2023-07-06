@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/fdb1d684f14641deb44c23da780ef9ad/artifacts
+end_time: 1688561326345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fdb1d684f14641deb44c23da780ef9ad
+run_name: able-chimp-243
+run_uuid: fdb1d684f14641deb44c23da780ef9ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688561305538
+status: 3
+tags: []
+user_id: amroun

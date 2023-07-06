@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/59b3162328ab4e5cb3d8d64e2474fd78/artifacts
+end_time: 1688666677551
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59b3162328ab4e5cb3d8d64e2474fd78
+run_name: entertaining-hog-909
+run_uuid: 59b3162328ab4e5cb3d8d64e2474fd78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688666655886
+status: 3
+tags: []
+user_id: amroun

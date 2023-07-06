@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/007c42ca00454e46be899194df345e83/artifacts
+end_time: 1688569136035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 007c42ca00454e46be899194df345e83
+run_name: mercurial-zebra-910
+run_uuid: 007c42ca00454e46be899194df345e83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688569105069
+status: 3
+tags: []
+user_id: amroun

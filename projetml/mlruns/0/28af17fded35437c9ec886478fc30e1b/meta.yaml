@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/28af17fded35437c9ec886478fc30e1b/artifacts
+end_time: 1688568583399
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28af17fded35437c9ec886478fc30e1b
+run_name: blushing-trout-922
+run_uuid: 28af17fded35437c9ec886478fc30e1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688568552950
+status: 3
+tags: []
+user_id: amroun

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/a5148fb49c644712b2a8bb82d6c93922/artifacts
+end_time: 1688561465560
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5148fb49c644712b2a8bb82d6c93922
+run_name: big-jay-612
+run_uuid: a5148fb49c644712b2a8bb82d6c93922
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688561453450
+status: 3
+tags: []
+user_id: amroun

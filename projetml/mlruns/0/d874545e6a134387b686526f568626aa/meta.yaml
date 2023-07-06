@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/d874545e6a134387b686526f568626aa/artifacts
+end_time: 1688665845072
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d874545e6a134387b686526f568626aa
+run_name: valuable-shrike-965
+run_uuid: d874545e6a134387b686526f568626aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688665810929
+status: 4
+tags: []
+user_id: amroun

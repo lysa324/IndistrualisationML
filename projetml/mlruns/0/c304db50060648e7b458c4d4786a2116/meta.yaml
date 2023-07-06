@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/c304db50060648e7b458c4d4786a2116/artifacts
+end_time: 1688561643294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c304db50060648e7b458c4d4786a2116
+run_name: loud-jay-584
+run_uuid: c304db50060648e7b458c4d4786a2116
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688561631192
+status: 3
+tags: []
+user_id: amroun

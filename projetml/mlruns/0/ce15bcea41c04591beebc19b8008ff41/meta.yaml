@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/ce15bcea41c04591beebc19b8008ff41/artifacts
+end_time: 1688562182939
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce15bcea41c04591beebc19b8008ff41
+run_name: funny-fish-641
+run_uuid: ce15bcea41c04591beebc19b8008ff41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688562154057
+status: 3
+tags: []
+user_id: amroun

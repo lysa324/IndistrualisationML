@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/38614ee926c44db38b793a4039050f8c/artifacts
+end_time: 1688475015375
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38614ee926c44db38b793a4039050f8c
+run_name: salty-ant-364
+run_uuid: 38614ee926c44db38b793a4039050f8c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688475000595
+status: 3
+tags: []
+user_id: amroun

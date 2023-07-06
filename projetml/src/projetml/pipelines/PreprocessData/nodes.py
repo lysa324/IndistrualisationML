@@ -8,15 +8,14 @@ import numpy as np
 
 
 def datapreprocess(df : pd.DataFrame):
+    
 
     # Supprimer les lignes entièrement nulles
     df = df.dropna(axis=0, how='all')
     
-
     # Supprimer les données non exploitables
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.dropna()
-
 
     df = df.drop_duplicates()
     if df.empty:

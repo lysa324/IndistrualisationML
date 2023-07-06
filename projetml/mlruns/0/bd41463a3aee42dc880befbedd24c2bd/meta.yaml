@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/bd41463a3aee42dc880befbedd24c2bd/artifacts
+end_time: 1688484660083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd41463a3aee42dc880befbedd24c2bd
+run_name: placid-shrew-841
+run_uuid: bd41463a3aee42dc880befbedd24c2bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484643627
+status: 3
+tags: []
+user_id: amroun

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/2465b937946641c1ac59ca1a7f538ae8/artifacts
+end_time: 1688666270677
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2465b937946641c1ac59ca1a7f538ae8
+run_name: abundant-robin-156
+run_uuid: 2465b937946641c1ac59ca1a7f538ae8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688666251072
+status: 4
+tags: []
+user_id: amroun

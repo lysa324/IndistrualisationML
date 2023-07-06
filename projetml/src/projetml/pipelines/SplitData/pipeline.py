@@ -12,10 +12,9 @@ def create_pipeline(**kwargs) -> Pipeline:
 	node(
 		func = splitData,
 		inputs ="shaped_datas",
-		outputs = ["shaped_datas_train","shaped_datas_test","shaped_datas_inputs","shaped_datas_labels"],
+		outputs = ["shaped_datas_train","shaped_datas_train_label","shaped_datas_test","shaped_datas_test_label"],
 		name =  "split_data_node"
 	)
-
 ])
 
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/b40f9fe55b344b61ba9005358d3bbf96/artifacts
+end_time: 1688666533676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b40f9fe55b344b61ba9005358d3bbf96
+run_name: gregarious-smelt-35
+run_uuid: b40f9fe55b344b61ba9005358d3bbf96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688666514218
+status: 3
+tags: []
+user_id: amroun

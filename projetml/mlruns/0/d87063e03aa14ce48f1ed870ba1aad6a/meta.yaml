@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/d87063e03aa14ce48f1ed870ba1aad6a/artifacts
+end_time: 1688562472573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d87063e03aa14ce48f1ed870ba1aad6a
+run_name: gaudy-zebra-992
+run_uuid: d87063e03aa14ce48f1ed870ba1aad6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688562452702
+status: 3
+tags: []
+user_id: amroun

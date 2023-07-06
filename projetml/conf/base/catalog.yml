@@ -13,11 +13,14 @@ shaped_datas:
   filepath: data/02_intermediate/merged_data.csv
   layer: intermediate
 
-
-
 shaped_datas_train:
   type: pandas.CSVDataSet
   filepath: data/05_model_input/trainData.csv
+  layer: model_input
+
+shaped_datas_train_label:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/trainLabel.csv
   layer: model_input
 
 shaped_datas_test:
@@ -25,13 +28,22 @@ shaped_datas_test:
   filepath: data/05_model_input/testData.csv
   layer: model_input
 
-shaped_datas_inputs:
+shaped_datas_test_label:
   type: pandas.CSVDataSet
-  filepath: data/05_model_input/dataInput.csv
+  filepath: data/05_model_input/testLabel.csv
   layer: model_input
 
-shaped_datas_labels:
+shaped_model: 
+  type: pickle.PickleDataSet
+  filepath: data/06_models/MyModel.pkl
+  layer: models
+
+shaped_data_predictions: 
   type: pandas.CSVDataSet
-  filepath: data/05_model_input/labels.csv
+  filepath: data/05_model_input/DataForPredictions.csv
   layer: model_input
+
+
+
+
 

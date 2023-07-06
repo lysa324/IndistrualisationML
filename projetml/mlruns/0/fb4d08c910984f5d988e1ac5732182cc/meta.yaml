@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/fb4d08c910984f5d988e1ac5732182cc/artifacts
+end_time: 1688485451852
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fb4d08c910984f5d988e1ac5732182cc
+run_name: loud-gnat-482
+run_uuid: fb4d08c910984f5d988e1ac5732182cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688485429929
+status: 3
+tags: []
+user_id: amroun

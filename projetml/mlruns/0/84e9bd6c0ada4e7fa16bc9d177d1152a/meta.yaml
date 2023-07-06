@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/84e9bd6c0ada4e7fa16bc9d177d1152a/artifacts
+end_time: 1688484578845
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 84e9bd6c0ada4e7fa16bc9d177d1152a
+run_name: delightful-midge-478
+run_uuid: 84e9bd6c0ada4e7fa16bc9d177d1152a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688484557451
+status: 3
+tags: []
+user_id: amroun
