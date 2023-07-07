@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/7faece664f074e20b07f6865eda5062d/artifacts
+end_time: 1688749306398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7faece664f074e20b07f6865eda5062d
+run_name: bouncy-auk-657
+run_uuid: 7faece664f074e20b07f6865eda5062d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688749243093
+status: 3
+tags: []
+user_id: amroun

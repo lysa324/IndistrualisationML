@@ -12,8 +12,10 @@ def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([
 	node(
 		func = test_model,
-		inputs = ["shaped_model","shaped_data_predictions"],
+		inputs = ["shaped_data_predictions"],
 		outputs = "predicted_classes",
 		name =   "test_model_node"
 	)
 ])
+
+

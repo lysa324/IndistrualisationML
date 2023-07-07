@@ -40,8 +40,11 @@ shaped_model:
 
 shaped_data_predictions: 
   type: pandas.CSVDataSet
-  filepath: data/05_model_input/DataForPredictions.csv
-  layer: model_input
+  filepath: UserData.csv
+  layer: MyLayer
+
+
+
 
 
 

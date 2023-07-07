@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/a042d65397f04e75be94078968ec4afd/artifacts
+end_time: 1688740076739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a042d65397f04e75be94078968ec4afd
+run_name: chill-ant-678
+run_uuid: a042d65397f04e75be94078968ec4afd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688740055760
+status: 3
+tags: []
+user_id: amroun

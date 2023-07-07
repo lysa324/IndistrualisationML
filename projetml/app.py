@@ -8,10 +8,9 @@ import pandas as pd
 import tempfile
 import os
 from pathlib import Path
+from kedro.extras.datasets.pandas import CSVDataSet
 from kedro.framework.session import KedroSession
 from kedro.framework.startup import bootstrap_project
-from kedro.extras.datasets.pandas import CSVDataSet
-
 
 
 app = Flask(__name__)
@@ -27,17 +26,14 @@ def save_user_data():
     if file.filename == "":
         return jsonify({"error": "Le nom du fichier est vide"})
 
-    output_dir = "/home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/data/05_model_input/fileoutput"
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
 
+    output_dir = "."
 
-    output_filename = "UserData"+ ".csv"
+    output_filename = "UserData.csv"
     output_path = os.path.join(output_dir, output_filename)
     file.save(output_path)
 
     return jsonify({"message": "Fichier enregistré avec succès"})
-
 
 
 # entrainement des données
@@ -52,14 +48,12 @@ def train_model():
 # Prédictions
 @app.route("/predict", methods=["GET"])
 def predict():
-    #data = request.get_json()
+
     with KedroSession.create("projetml", project_path=".") as session:
       session.run(pipeline_name="TestModel")
       
-    prediction = {"prediction": "Résultat de la prédiction"}
-
+    prediction = {"prediction": "Résultats de la prédiction en ligne de commande!"}
     return jsonify(prediction)
-
 
 
 

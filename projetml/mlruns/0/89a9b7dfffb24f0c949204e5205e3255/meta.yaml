@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/89a9b7dfffb24f0c949204e5205e3255/artifacts
+end_time: 1688740922870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89a9b7dfffb24f0c949204e5205e3255
+run_name: monumental-yak-315
+run_uuid: 89a9b7dfffb24f0c949204e5205e3255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688740903344
+status: 3
+tags: []
+user_id: amroun

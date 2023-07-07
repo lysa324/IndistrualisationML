@@ -6,9 +6,7 @@ import requests
 url = "http://localhost:5000/save"
 
 
-file_path = "/home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/data/05_model_input/DataForPredictions.csv"
-
-
+file_path = "DataForPredictions.csv"
 with open(file_path, "rb") as file:
     response = requests.post(url, files={"file": file})
 

@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1688736447095
+current_stage: None
+description: ''
+last_updated_timestamp: 1688736447095
+name: MyFinalModel
+run_id: 222b3d11b8294257999131a82ef4f58f
+run_link: ''
+source: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/222b3d11b8294257999131a82ef4f58f/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 1
