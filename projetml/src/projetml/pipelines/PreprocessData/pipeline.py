@@ -8,13 +8,13 @@ from .nodes import datapreprocess
 
 
 def create_pipeline(**kwargs) -> Pipeline:
-    return pipeline([
-	node(
-		func = datapreprocess,
-		inputs ="raw_daily_data",
-		outputs = "shaped_datas",
-		name =  "node_merge_raw_daily_data"
-	)
-
-])
-
+    return pipeline(
+        [
+            node(
+                func=datapreprocess,
+                inputs="raw_daily_data",
+                outputs="shaped_datas",
+                name="node_merge_raw_daily_data",
+            )
+        ]
+    )

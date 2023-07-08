@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 import requests
 
-
+"""
+Ce fichier a pour but d'executer le chemin /save de l'api afin de récupérer les données du user
+"""
 url = "http://localhost:5000/save"
 
 
@@ -14,4 +16,3 @@ if response.status_code == 200:
     print("Fichier envoyé avec succès !")
 else:
     print("Erreur lors de l'envoi du fichier :", response.json())
-

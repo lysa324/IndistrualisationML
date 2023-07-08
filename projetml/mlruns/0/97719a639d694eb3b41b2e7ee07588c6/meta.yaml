@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/97719a639d694eb3b41b2e7ee07588c6/artifacts
+end_time: 1688849508237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97719a639d694eb3b41b2e7ee07588c6
+run_name: indecisive-hawk-542
+run_uuid: 97719a639d694eb3b41b2e7ee07588c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688849457430
+status: 3
+tags: []
+user_id: amroun

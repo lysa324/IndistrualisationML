@@ -7,10 +7,15 @@ import numpy as np
 from kedro.config import ConfigLoader, TemplatedConfigLoader
 import yaml
 
-def datapreprocess(df : pd.DataFrame):
+"""
+Cette fonction à pour but de prétraiter un dataframe afin de le rendre exploitable dans un modéle ML
+"""
+
+
+def datapreprocess(df: pd.DataFrame):
     # Supprimer les lignes entièrement nulles
-    df = df.dropna(axis=0, how='all')
-   
+    df = df.dropna(axis=0, how="all")
+
     # Supprimer les données non exploitables
     df = df.replace([np.inf, -np.inf], np.nan)
     df = df.dropna()
@@ -24,11 +29,4 @@ def datapreprocess(df : pd.DataFrame):
     max_val = df.max()
     df = (df - min_val) / (max_val - min_val)
 
-
     return df
-
-
-
-
-
-

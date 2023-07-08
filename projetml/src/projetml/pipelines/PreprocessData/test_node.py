@@ -1,16 +1,22 @@
 import pandas as pd
 import numpy as np
-from .nodes import datapreprocess 
+from .nodes import datapreprocess
 import pytest
+
+"""
+Cette fonction est pour tester la fonction datapreprocess
+"""
+
 
 def test_datapreprocess():
     # Créer un DataFrame de test
-    df = pd.DataFrame({
-        'A': [1, 2, np.nan, 4, 5],
-        'B': [6, 7, 8, np.inf, 10],
-        'C': [11, 12, 13, 14, 15]
-    })
-
+    df = pd.DataFrame(
+        {
+            "A": [1, 2, np.nan, 4, 5],
+            "B": [6, 7, 8, np.inf, 10],
+            "C": [11, 12, 13, 14, 15],
+        }
+    )
 
     processed_df = datapreprocess(df)
 
@@ -25,8 +31,3 @@ def test_datapreprocess():
     assert not processed_df.duplicated().any()
 
     assert (processed_df >= 0).all().all() and (processed_df <= 1).all().all()
-
-
-
-
-

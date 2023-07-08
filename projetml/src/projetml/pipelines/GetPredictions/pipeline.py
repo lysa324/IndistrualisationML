@@ -7,14 +7,14 @@ from kedro.pipeline import Pipeline, node, pipeline
 from .nodes import predict
 
 
-
 def create_pipeline(**kwargs) -> Pipeline:
-    return pipeline([
-	node(
-		func = predict,
-		inputs = ["shaped_data_GetPredictions_API"],
-		outputs = "predicted_classes_API",
-		name =   "GetPredictions"
-	)
-])
-
+    return pipeline(
+        [
+            node(
+                func=predict,
+                inputs=["shaped_data_GetPredictions_API"],
+                outputs="predicted_classes_API",
+                name="GetPredictions",
+            )
+        ]
+    )

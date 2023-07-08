@@ -16,6 +16,7 @@ from kedro.framework.startup import bootstrap_project
 app = Flask(__name__)
 bootstrap_project(Path.cwd())
 
+
 # Récupération des données
 @app.route("/save", methods=["POST"])
 def save_user_data():
@@ -26,7 +27,6 @@ def save_user_data():
     if file.filename == "":
         return jsonify({"error": "Le nom du fichier est vide"})
 
-
     output_dir = "."
 
     output_filename = "UserData.csv"
@@ -36,7 +36,7 @@ def save_user_data():
     return jsonify({"message": "Fichier enregistré avec succès"})
 
 
-# entrainement des données
+# Entrainement des données
 @app.route("/train", methods=["GET"])
 def train_model():
     print("Début d'entrainement du modéle")
@@ -45,16 +45,15 @@ def train_model():
 
     return jsonify({"message": "Fin entrainement du modéle!"})
 
+
 # Prédictions
 @app.route("/predict", methods=["GET"])
 def predict():
-
     with KedroSession.create("projetml", project_path=".") as session:
-      session.run(pipeline_name="GetPredictions")
-      
+        session.run(pipeline_name="GetPredictions")
+
     prediction = {"prediction": "Résultats de la prédiction en ligne de commande!"}
     return jsonify(prediction)
-
 
 
 # Gestion des erreurs 404
@@ -62,6 +61,6 @@ def predict():
 def not_found(error):
     return jsonify({"error": "attention erreur"}), 404
 
-if __name__ == "__main__":
-    app.run(debug = True)
 
+if __name__ == "__main__":
+    app.run(debug=True)
