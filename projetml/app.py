@@ -50,7 +50,7 @@ def train_model():
 def predict():
 
     with KedroSession.create("projetml", project_path=".") as session:
-      session.run(pipeline_name="TestModel")
+      session.run(pipeline_name="GetPredictions")
       
     prediction = {"prediction": "Résultats de la prédiction en ligne de commande!"}
     return jsonify(prediction)

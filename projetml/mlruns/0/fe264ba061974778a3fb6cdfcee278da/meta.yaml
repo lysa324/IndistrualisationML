@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/fe264ba061974778a3fb6cdfcee278da/artifacts
+end_time: 1688833233309
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe264ba061974778a3fb6cdfcee278da
+run_name: amazing-tern-179
+run_uuid: fe264ba061974778a3fb6cdfcee278da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833193157
+status: 3
+tags: []
+user_id: amroun

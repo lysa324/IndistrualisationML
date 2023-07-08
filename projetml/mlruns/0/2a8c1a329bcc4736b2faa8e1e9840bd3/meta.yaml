@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/2a8c1a329bcc4736b2faa8e1e9840bd3/artifacts
+end_time: 1688833451103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a8c1a329bcc4736b2faa8e1e9840bd3
+run_name: unique-stag-623
+run_uuid: 2a8c1a329bcc4736b2faa8e1e9840bd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833412837
+status: 3
+tags: []
+user_id: amroun

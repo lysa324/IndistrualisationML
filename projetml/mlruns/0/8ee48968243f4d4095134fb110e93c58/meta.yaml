@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/8ee48968243f4d4095134fb110e93c58/artifacts
+end_time: 1688831831010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ee48968243f4d4095134fb110e93c58
+run_name: lyrical-fawn-417
+run_uuid: 8ee48968243f4d4095134fb110e93c58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688831774147
+status: 3
+tags: []
+user_id: amroun

@@ -38,12 +38,16 @@ shaped_model:
   filepath: data/06_models/MyModel.pkl
   layer: models
 
+
 shaped_data_predictions: 
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/fileoutput/UserData.csv
+  layer: model_input
+
+shaped_data_GetPredictions_API: 
   type: pandas.CSVDataSet
   filepath: UserData.csv
   layer: MyLayer
-
-
 
 
 

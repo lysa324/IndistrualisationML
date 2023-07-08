@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/97086258c9a14eea9d564f51045dd5ad/artifacts
+end_time: 1688833050550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 97086258c9a14eea9d564f51045dd5ad
+run_name: defiant-bee-925
+run_uuid: 97086258c9a14eea9d564f51045dd5ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688833009644
+status: 3
+tags: []
+user_id: amroun

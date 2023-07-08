@@ -1,0 +1,15 @@
+artifact_uri: file:///home/amroun/Documents/M2/IndistrualisationML/ProjetTP1/projetml/mlruns/0/5b28c6703f2347e1aea3a9997c21680e/artifacts
+end_time: 1688834507855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b28c6703f2347e1aea3a9997c21680e
+run_name: secretive-toad-170
+run_uuid: 5b28c6703f2347e1aea3a9997c21680e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1688834468477
+status: 3
+tags: []
+user_id: amroun

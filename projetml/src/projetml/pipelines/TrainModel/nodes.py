@@ -20,7 +20,7 @@ def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropo
 
     x = layers.Reshape(target_shape=(shape, 1))(inputs)
 
-    x = layers.Conv1D(filters=32, kernel_size=3, activation='relu')(x)
+    x = layers.Conv1D(filters=32, kernel_size=3, activation='sigmoid')(x)
     x = layers.MaxPooling1D(pool_size=2)(x)
     x = layers.ZeroPadding1D(padding=1)(x) 
     x = layers.Conv1D(filters=64, kernel_size=3, activation=activation)(x)
@@ -28,7 +28,7 @@ def create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropo
     x = layers.MaxPooling1D(pool_size=2)(x)
 
     x = layers.Flatten()(x)
-    x = layers.Dense(units=shape, activation='relu', kernel_regularizer=regularizers.l2(l2_value))(x)
+    x = layers.Dense(units=shape, activation='sigmoid', kernel_regularizer=regularizers.l2(l2_value))(x)
 
     if dropout_rate is not None:
         x = layers.Dropout(dropout_rate)(x)
@@ -47,11 +47,11 @@ def train_model(input_shape, x_train, y_train, x_val, y_val):
     
     with mlflow.start_run() as run:
         mlflow.autolog()
-        model = create_model(input_shape, units=128, activation='relu', l2_value=0.01, dropout_rate=None, learning_rate=1e-3)
+        model = create_model(input_shape, units=128, activation='sigmoid', l2_value=0.01, dropout_rate=None, learning_rate=1e-3)
         model.fit(
             x=x_train,
             y=y_train,
-            epochs=2,
+            epochs=20,
             batch_size=32,
             validation_data=(x_val, y_val)
         )
